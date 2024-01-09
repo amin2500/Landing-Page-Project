@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+/* Nav Section */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 16px;
+  height: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav__logo {
+  color: #199cdb;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-weight: 300;
+}
+
+.nav__button {
+  background-color: #199cdb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+/* Heading Section */
+
+.header {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header__img {
+  padding-top: 75px;
+  max-width: 100%;
+}
+
+.row {
+  margin-top: -35px;
+}
+
+.header__title {
+  padding-top: 13px;
+  
+}
+
+.header__img2{
+  margin-top: -10px;
+}
+
+.header__button {
+  background-color: #199cdb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
