@@ -66,6 +66,7 @@
 
 .header__img2{
   margin-top: -10px;
+  max-width: 100%;
 }
 
 .header__button {
@@ -85,4 +86,27 @@
   align-items: center;
   gap: 25px;
 }
+
+/* Products Section */
+
+#products{
+  background-color: #f6f6f6;
+}
+
+.row__products__row{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     gap: 16px;
+}
+
+.card{
+  display: flex;
+  
+}
+
+
+
+
 
